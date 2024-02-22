@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/photos/my_logo.png">
+    <link rel="stylesheet" href="./scss/style.css">
+</head>
+
+<body class="country">
+    <header class="header container">
+        <a class="logoSite" href="#">
+            Where in the world?
+        </a>
+        <button id="dark-light">
+            <svg width="16" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.84257 9.052C6.73486 9.052 4.21543 6.74226 4.21543 3.89457C4.21543 2.82024 4.57343 1.82526 5.18514 1C2.75229 1.75612 1 3.86498 1 6.35045C1 9.47079 3.75943 12 7.16286 12C9.87429 12 12.1757 10.3945 13 8.16362C12.1 8.72383 11.0129 9.052 9.84257 9.052Z" fill="white" stroke="#111517"/>
+            </svg>  
+            <p>
+                Dark Mode
+            </p>              
+         </button>
+    </header>
+    <main class="country">
+        <div class="container">
+            <span class="back-button" onclick="history.back()">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="call-made">
+                    <path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M6.46447 4.10744L7.64298 5.28596L3.75389 9.17504L18.6031 9.17504L18.6031 10.825L3.75389 10.825L7.64298 14.714L6.46447 15.8926L0.57191 10L6.46447 4.10744Z" fill="#111517"/>
+                    </g>
+                </svg>
+                <p>Back</p>
+            </span>
+            <div class="country-details">
+                <img src="" alt="" />
+                <div class="details-text-container">
+                    <h1 class="title">Iceland</h1>
+                    <div class="details-text">
+                        <p><b>Native Name: </b><span class="native-name"></span></p>
+                        <p><b>Population: </b><span class="population"></span></p>
+                        <p><b>Region: </b><span class="region"></span></p>
+                        <p><b>Sub Region: </b><span class="sub-region"></span></p>
+                        <p><b>Capital: </b><span class="capital"></span></p>
+                        <p><b>Top Level Domain: </b><span class="top-level-domain"></span></p>
+                        <p><b>Currencies: </b><span class="currencies"></span></p>
+                        <p><b>Languages: </b><span class="languages"></span></p>
+                    </div>
+                    <div class="border-countries"><b>Border Countries: </b>&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/country.js" defer></script>
+    <script src="./js/darkLIght.js"></script>
+</body>
+</html>
