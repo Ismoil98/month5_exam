@@ -1,11 +1,9 @@
-// backtop////////
 window.addEventListener("scroll", function () {
   toggleBacktop();
 });
 
 let backtop = document.getElementById("backtop");
 
-// loading
 const loading = document.getElementById("loading");
 const loadingDuration = 1400;
 setTimeout(() => {
